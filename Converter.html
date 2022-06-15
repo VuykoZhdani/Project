@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Converter of Bradbury</title>
+</head>
+<body>
+<center>
+<h1 class='title red font-size '>Converter from fahrenheit to celsius</h1>
+<link href="custom.css" rel="stylesheet">
+  Fahrenheit:<input id="FtoC" type="number" class="padding font-size"
+                    onclick="convert(this.value)"
+                    onchange="convert(this.value)" value="">
+  Celsium:<input id="cel" type="number" onkeyup="convert('f')"  class="padding font-size"
+                 onclick="temptoC"(this.value)
+                    onchange="temptoC"(this.value) value="" >
+  <button type="button" id="convert" onclick="functionToExecute(FtoC)" class="btn">
+    convert
+  </button>
+</center>
+<script>
+  function convert(fahrenheit) {
+    var fahrenheit = fahrenheit;
+    document.getElementById("cel").value=(fahrenheit- 32) * 5 / 9;
+    document.getElementById("cel").value = Math.round(c);
+  }
+</script>
+</head>
+</body>
+</html>
