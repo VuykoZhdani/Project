@@ -1,0 +1,25 @@
+.red {
+  color: blue;
+}
+.padding{
+  padding: 50px 5em 5em;
+  border:double;
+}
+.title{
+  padding: 50px 5em 5em;
+  border:double;
+  font-size: 100px;
+}
+.font-size {
+  font-style: italic;
+  font-family: "Book Antiqua";
+  font-size: 20px;
+}
+
+.btn {
+  border: double;
+  background-color: yellow;
+  padding: 50px 50px;
+  font-size: 20px;
+
+}
